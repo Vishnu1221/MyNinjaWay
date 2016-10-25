@@ -1,0 +1,57 @@
+D:\POC Applications\TestServiceForCreation\TestServiceForCreation\obj\Debug\ResolveAssemblyReference.cache
+D:\POC Applications\TestServiceForCreation\TestServiceForCreation\bin\TestServiceForCreation.dll
+D:\POC Applications\TestServiceForCreation\TestServiceForCreation\bin\TestServiceForCreation.pdb
+D:\POC Applications\TestServiceForCreation\TestServiceForCreation\bin\EntityFramework.dll
+D:\POC Applications\TestServiceForCreation\TestServiceForCreation\bin\EntityFramework.SqlServer.dll
+D:\POC Applications\TestServiceForCreation\TestServiceForCreation\bin\EntityFramework.xml
+D:\POC Applications\TestServiceForCreation\TestServiceForCreation\bin\EntityFramework.SqlServer.xml
+D:\POC Applications\TestServiceForCreation\TestServiceForCreation\obj\Debug\TestServiceForCreation.dll
+D:\POC Applications\TestServiceForCreation\TestServiceForCreation\obj\Debug\TestServiceForCreation.pdb
+D:\POC Applications\TestServiceForCreation\TestServiceForCreation\bin\TestServiceForCreation.dll.config
+D:\POC Applications\TestServiceForCreation\TestServiceForCreation\bin\AutoMapper.dll
+D:\POC Applications\TestServiceForCreation\TestServiceForCreation\bin\System.IO.dll
+D:\POC Applications\TestServiceForCreation\TestServiceForCreation\bin\System.Runtime.dll
+D:\POC Applications\TestServiceForCreation\TestServiceForCreation\bin\System.Threading.Tasks.dll
+D:\POC Applications\TestServiceForCreation\TestServiceForCreation\bin\AutoMapper.xml
+D:\POC Applications\TestServiceForCreation\TestServiceForCreation\bin\System.IO.xml
+D:\POC Applications\TestServiceForCreation\TestServiceForCreation\bin\System.Runtime.xml
+D:\POC Applications\TestServiceForCreation\TestServiceForCreation\bin\System.Threading.Tasks.xml
+D:\POC Applications\TestServiceForCreation\TestServiceForCreation\obj\Debug\TestServiceForCreation.csproj.App.config
+D:\Projects\TestServiceForCreation\TestServiceForCreation\bin\TestServiceForCreation.dll.config
+D:\Projects\TestServiceForCreation\TestServiceForCreation\bin\TestServiceForCreation.dll
+D:\Projects\TestServiceForCreation\TestServiceForCreation\bin\TestServiceForCreation.pdb
+D:\Projects\TestServiceForCreation\TestServiceForCreation\bin\AutoMapper.dll
+D:\Projects\TestServiceForCreation\TestServiceForCreation\bin\EntityFramework.dll
+D:\Projects\TestServiceForCreation\TestServiceForCreation\bin\EntityFramework.SqlServer.dll
+D:\Projects\TestServiceForCreation\TestServiceForCreation\bin\System.IO.dll
+D:\Projects\TestServiceForCreation\TestServiceForCreation\bin\System.Runtime.dll
+D:\Projects\TestServiceForCreation\TestServiceForCreation\bin\System.Threading.Tasks.dll
+D:\Projects\TestServiceForCreation\TestServiceForCreation\bin\AutoMapper.xml
+D:\Projects\TestServiceForCreation\TestServiceForCreation\bin\EntityFramework.xml
+D:\Projects\TestServiceForCreation\TestServiceForCreation\bin\EntityFramework.SqlServer.xml
+D:\Projects\TestServiceForCreation\TestServiceForCreation\bin\System.IO.xml
+D:\Projects\TestServiceForCreation\TestServiceForCreation\bin\System.Runtime.xml
+D:\Projects\TestServiceForCreation\TestServiceForCreation\bin\System.Threading.Tasks.xml
+D:\Projects\TestServiceForCreation\TestServiceForCreation\obj\Debug\TestServiceForCreation.csproj.App.config
+D:\Projects\TestServiceForCreation\TestServiceForCreation\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\TestServiceForCreation\TestServiceForCreation\obj\Debug\TestServiceForCreation.dll
+D:\Projects\TestServiceForCreation\TestServiceForCreation\obj\Debug\TestServiceForCreation.pdb
+D:\Solutions\TestServiceForCreation\TestServiceForCreation\bin\TestServiceForCreation.dll.config
+D:\Solutions\TestServiceForCreation\TestServiceForCreation\bin\TestServiceForCreation.dll
+D:\Solutions\TestServiceForCreation\TestServiceForCreation\bin\TestServiceForCreation.pdb
+D:\Solutions\TestServiceForCreation\TestServiceForCreation\bin\AutoMapper.dll
+D:\Solutions\TestServiceForCreation\TestServiceForCreation\bin\EntityFramework.dll
+D:\Solutions\TestServiceForCreation\TestServiceForCreation\bin\EntityFramework.SqlServer.dll
+D:\Solutions\TestServiceForCreation\TestServiceForCreation\bin\System.IO.dll
+D:\Solutions\TestServiceForCreation\TestServiceForCreation\bin\System.Runtime.dll
+D:\Solutions\TestServiceForCreation\TestServiceForCreation\bin\System.Threading.Tasks.dll
+D:\Solutions\TestServiceForCreation\TestServiceForCreation\bin\AutoMapper.xml
+D:\Solutions\TestServiceForCreation\TestServiceForCreation\bin\EntityFramework.xml
+D:\Solutions\TestServiceForCreation\TestServiceForCreation\bin\EntityFramework.SqlServer.xml
+D:\Solutions\TestServiceForCreation\TestServiceForCreation\bin\System.IO.xml
+D:\Solutions\TestServiceForCreation\TestServiceForCreation\bin\System.Runtime.xml
+D:\Solutions\TestServiceForCreation\TestServiceForCreation\bin\System.Threading.Tasks.xml
+D:\Solutions\TestServiceForCreation\TestServiceForCreation\obj\Debug\TestServiceForCreation.csproj.App.config
+D:\Solutions\TestServiceForCreation\TestServiceForCreation\obj\Debug\TestServiceForCreation.csprojResolveAssemblyReference.cache
+D:\Solutions\TestServiceForCreation\TestServiceForCreation\obj\Debug\TestServiceForCreation.dll
+D:\Solutions\TestServiceForCreation\TestServiceForCreation\obj\Debug\TestServiceForCreation.pdb

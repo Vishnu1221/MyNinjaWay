@@ -1,0 +1,15 @@
+c:\users\abith.v\documents\visual studio 2010\Projects\DBSpy\TestWebOpsPost\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\abith.v\documents\visual studio 2010\Projects\DBSpy\TestWebOpsPost\bin\Debug\TestWebOpsPost.exe.config
+c:\users\abith.v\documents\visual studio 2010\Projects\DBSpy\TestWebOpsPost\bin\Debug\TestWebOpsPost.exe
+c:\users\abith.v\documents\visual studio 2010\Projects\DBSpy\TestWebOpsPost\bin\Debug\TestWebOpsPost.pdb
+c:\users\abith.v\documents\visual studio 2010\Projects\DBSpy\TestWebOpsPost\obj\x86\Debug\TestWebOpsPost.exe
+c:\users\abith.v\documents\visual studio 2010\Projects\DBSpy\TestWebOpsPost\obj\x86\Debug\TestWebOpsPost.pdb
+\\FILESVR\public_share\Abith\Solutions\DBSpy\TestWebOpsPost\bin\Debug\TestWebOpsPost.exe.config
+\\FILESVR\public_share\Abith\Solutions\DBSpy\TestWebOpsPost\obj\x86\Debug\TestWebOpsPost.exe
+\\FILESVR\public_share\Abith\Solutions\DBSpy\TestWebOpsPost\obj\x86\Debug\TestWebOpsPost.pdb
+\\filesvr\public_share\Abith\Solutions\DBSpy\TestWebOpsPost\bin\Debug\TestWebOpsPost.exe
+\\filesvr\public_share\Abith\Solutions\DBSpy\TestWebOpsPost\bin\Debug\TestWebOpsPost.pdb
+\\filesvr\public_share\Abith\Solutions\DBSpy\TestWebOpsPost\obj\x86\Debug\TestWebOpsPost.csprojResolveAssemblyReference.cache
+D:\Abith\Solutions\DBSpy\TestWebOpsPost\bin\Debug\TestWebOpsPost.exe.config
+D:\Abith\Solutions\DBSpy\TestWebOpsPost\obj\x86\Debug\TestWebOpsPost.exe
+D:\Abith\Solutions\DBSpy\TestWebOpsPost\obj\x86\Debug\TestWebOpsPost.pdb

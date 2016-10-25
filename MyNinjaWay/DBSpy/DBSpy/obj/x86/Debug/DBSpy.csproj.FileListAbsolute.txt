@@ -1,0 +1,17 @@
+c:\users\abith.v\documents\visual studio 2010\Projects\DBSpy\DBSpy\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\abith.v\documents\visual studio 2010\Projects\DBSpy\DBSpy\obj\x86\Debug\DBSpy.ProjectInstaller.resources
+c:\users\abith.v\documents\visual studio 2010\Projects\DBSpy\DBSpy\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\abith.v\documents\visual studio 2010\Projects\DBSpy\DBSpy\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\abith.v\documents\visual studio 2010\Projects\DBSpy\DBSpy\bin\Debug\DBSpy.exe.config
+c:\users\abith.v\documents\visual studio 2010\Projects\DBSpy\DBSpy\bin\Debug\DBSpy.exe
+c:\users\abith.v\documents\visual studio 2010\Projects\DBSpy\DBSpy\bin\Debug\DBSpy.pdb
+c:\users\abith.v\documents\visual studio 2010\Projects\DBSpy\DBSpy\obj\x86\Debug\DBSpy.exe
+c:\users\abith.v\documents\visual studio 2010\Projects\DBSpy\DBSpy\obj\x86\Debug\DBSpy.pdb
+\\filesvr\public_share\Abith\Solutions\DBSpy\DBSpy\bin\Debug\DBSpy.exe.config
+\\filesvr\public_share\Abith\Solutions\DBSpy\DBSpy\bin\Debug\DBSpy.exe
+\\filesvr\public_share\Abith\Solutions\DBSpy\DBSpy\bin\Debug\DBSpy.pdb
+\\filesvr\public_share\Abith\Solutions\DBSpy\DBSpy\obj\x86\Debug\DBSpy.csprojResolveAssemblyReference.cache
+\\filesvr\public_share\Abith\Solutions\DBSpy\DBSpy\obj\x86\Debug\DBSpy.ProjectInstaller.resources
+\\filesvr\public_share\Abith\Solutions\DBSpy\DBSpy\obj\x86\Debug\DBSpy.csproj.GenerateResource.Cache
+\\filesvr\public_share\Abith\Solutions\DBSpy\DBSpy\obj\x86\Debug\DBSpy.exe
+\\filesvr\public_share\Abith\Solutions\DBSpy\DBSpy\obj\x86\Debug\DBSpy.pdb
