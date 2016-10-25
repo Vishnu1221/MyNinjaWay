@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified">
+  <xsd:element name="Upsscs">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="Header">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="messageIdentifier" type="xsd:string" />
+              <xsd:element name="processIdentifier" type="xsd:unsignedInt" />
+              <xsd:element name="messageProducer" type="xsd:string" />
+              <xsd:element name="messageConsumer" type="xsd:string" />
+              <xsd:element name="messageFunction" type="xsd:string" />
+              <xsd:element name="messageDateTime" type="xsd:dateTime" />
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+        <xsd:element name="OrderCreationRequest">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="OrderProcessingInstructions">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="inventoryOrder" type="xsd:boolean" />
+                    <xsd:element name="customerOrderNumber" type="xsd:string" />
+                    <xsd:element name="timeSentInGMT" type="xsd:boolean" />
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+              <xsd:element name="Authorizer">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="firstName" type="xsd:string" />
+                    <xsd:element name="lastName" type="xsd:string" />
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+      <xsd:attribute name="applicationVersion" type="xsd:decimal" use="required" />
+      <xsd:attribute name="schemaVersion" type="xsd:decimal" use="required" />
+    </xsd:complexType>
+  </xsd:element>
+</xs:schema>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="http://localhost:74/OrderCreation.svc" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="webopservice" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="True" profileName="IISPublish" publishMethod="MSDeploy" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="False" />
+  <publishProfile publishUrl="D:\Publish" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="IISserver" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Web.config" publishTime="10/24/2016 17:35:29" />
+    <file relUrl="bin/AutoMapper.xml" publishTime="10/20/2016 15:14:16" />
+    <file relUrl="bin/EntityFramework.dll" publishTime="10/20/2016 10:33:27" />
+    <file relUrl="bin/System.Threading.Tasks.dll" publishTime="10/20/2016 15:14:16" />
+    <file relUrl="bin/TestServiceForCreation.pdb" publishTime="10/24/2016 17:35:21" />
+    <file relUrl="packages.config" publishTime="10/20/2016 15:14:18" />
+    <file relUrl="bin/TestServiceForCreation.dll" publishTime="10/24/2016 17:35:21" />
+    <file relUrl="bin/System.IO.xml" publishTime="10/20/2016 15:14:16" />
+    <file relUrl="bin/EntityFramework.xml" publishTime="10/20/2016 10:33:27" />
+    <file relUrl="bin/System.Runtime.dll" publishTime="10/20/2016 15:14:16" />
+    <file relUrl="bin/EntityFramework.SqlServer.dll" publishTime="10/20/2016 10:33:27" />
+    <file relUrl="bin/EntityFramework.SqlServer.xml" publishTime="10/20/2016 10:33:27" />
+    <file relUrl="bin/System.Threading.Tasks.xml" publishTime="10/20/2016 15:14:16" />
+    <file relUrl="bin/AutoMapper.dll" publishTime="10/20/2016 15:14:16" />
+    <file relUrl="bin/System.IO.dll" publishTime="10/20/2016 15:14:16" />
+    <file relUrl="bin/System.Runtime.xml" publishTime="10/20/2016 15:14:16" />
+    <file relUrl="OrderCreation.svc" publishTime="10/20/2016 16:24:48" />
+  </publishProfile>
+</publishData>

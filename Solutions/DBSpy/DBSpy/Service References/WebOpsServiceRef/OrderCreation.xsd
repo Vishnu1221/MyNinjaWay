@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="WebOpsEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="firstName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="invertoryOrder" type="xs:boolean" />
+      <xs:element minOccurs="0" name="invoice_Number" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="lastName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="timeSentInGMT" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="WebOpsEntity" nillable="true" type="WebOpsEntity" />
+</xs:schema>

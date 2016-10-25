@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="WebOpsQCModelStoreContainer" CdmEntityContainer="WebOpsQCEntities">
+    <EntitySetMapping Name="TBL_CASE">
+      <EntityTypeMapping TypeName="WebOpsQCModel.TBL_CASE">
+        <MappingFragment StoreEntitySet="TBL_CASE">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="SURGERY_DATE" ColumnName="SURGERY_DATE" />
+          <ScalarProperty Name="SHIPPING_ADDRESS_ID" ColumnName="SHIPPING_ADDRESS_ID" />
+          <ScalarProperty Name="CASE_IDENTIFIER" ColumnName="CASE_IDENTIFIER" />
+          <ScalarProperty Name="IS_TRAUMA" ColumnName="IS_TRAUMA" />
+          <ScalarProperty Name="SPECIAL_INSTRUCTION" ColumnName="SPECIAL_INSTRUCTION" />
+          <ScalarProperty Name="PO_NUMBER" ColumnName="PO_NUMBER" />
+          <ScalarProperty Name="INVOICE_NUMBER" ColumnName="INVOICE_NUMBER" />
+          <ScalarProperty Name="CHECKED_OUT_BY" ColumnName="CHECKED_OUT_BY" />
+          <ScalarProperty Name="CREATED_BY" ColumnName="CREATED_BY" />
+          <ScalarProperty Name="CREATED_DATE" ColumnName="CREATED_DATE" />
+          <ScalarProperty Name="CHANGED_BY" ColumnName="CHANGED_BY" />
+          <ScalarProperty Name="CHANGED_DATE" ColumnName="CHANGED_DATE" />
+          <ScalarProperty Name="SALES_REP_ID" ColumnName="SALES_REP_ID" />
+          <ScalarProperty Name="PHYSICIAN_ID" ColumnName="PHYSICIAN_ID" />
+          <ScalarProperty Name="HOSPITAL_ID" ColumnName="HOSPITAL_ID" />
+          <ScalarProperty Name="PROCEDURE_ID" ColumnName="PROCEDURE_ID" />
+          <ScalarProperty Name="CASE_STATUS_ID" ColumnName="CASE_STATUS_ID" />
+          <ScalarProperty Name="CASE_TYPE_ID" ColumnName="CASE_TYPE_ID" />
+          <ScalarProperty Name="IS_CONFIRMED" ColumnName="IS_CONFIRMED" />
+          <ScalarProperty Name="IS_ASSEMBLED" ColumnName="IS_ASSEMBLED" />
+          <ScalarProperty Name="HOSPITAL_PO" ColumnName="HOSPITAL_PO" />
+          <ScalarProperty Name="PO_CALLED_IN_BY" ColumnName="PO_CALLED_IN_BY" />
+          <ScalarProperty Name="FREIGHT" ColumnName="FREIGHT" />
+          <ScalarProperty Name="BILLING_NUMBER" ColumnName="BILLING_NUMBER" />
+          <ScalarProperty Name="ORDER_NUMBER" ColumnName="ORDER_NUMBER" />
+          <ScalarProperty Name="SURGERY_ENTRY_FORM_COMMENTS" ColumnName="SURGERY_ENTRY_FORM_COMMENTS" />
+          <ScalarProperty Name="SHIP_VIA" ColumnName="SHIP_VIA" />
+          <ScalarProperty Name="CROSSLINK_PO" ColumnName="CROSSLINK_PO" />
+          <ScalarProperty Name="USAGE_RECEIVED" ColumnName="USAGE_RECEIVED" />
+          <ScalarProperty Name="USAGE_REORDERED" ColumnName="USAGE_REORDERED" />
+          <ScalarProperty Name="USAGE_CHANGED_BY" ColumnName="USAGE_CHANGED_BY" />
+          <ScalarProperty Name="USAGE_CHANGED_DATE" ColumnName="USAGE_CHANGED_DATE" />
+          <ScalarProperty Name="USAGE_TIMESTAMP" ColumnName="USAGE_TIMESTAMP" />
+          <ScalarProperty Name="PATIENT_GENDER" ColumnName="PATIENT_GENDER" />
+          <ScalarProperty Name="PATIENT_DOB" ColumnName="PATIENT_DOB" />
+          <ScalarProperty Name="BRANCH_ID" ColumnName="BRANCH_ID" />
+          <ScalarProperty Name="OLD_ID" ColumnName="OLD_ID" />
+          <ScalarProperty Name="ORACLE_SYNCHRONIZED" ColumnName="ORACLE_SYNCHRONIZED" />
+          <ScalarProperty Name="OLD_LOADER_ID" ColumnName="OLD_LOADER_ID" />
+          <ScalarProperty Name="BILLED" ColumnName="BILLED" />
+          <ScalarProperty Name="PICK_STATUS_ID" ColumnName="PICK_STATUS_ID" />
+          <ScalarProperty Name="PICK_PACKING_SLIP_FORM_NOTES" ColumnName="PICK_PACKING_SLIP_FORM_NOTES" />
+          <ScalarProperty Name="AGE_OF_PATIENT" ColumnName="AGE_OF_PATIENT" />
+          <ScalarProperty Name="SEARCH_CASE_IDENTIFIER" ColumnName="SEARCH_CASE_IDENTIFIER" />
+          <ScalarProperty Name="SALES_ORDER_NOTE" ColumnName="SALES_ORDER_NOTE" />
+          <ScalarProperty Name="ORIGINAL_CASE_STATUS_ID" ColumnName="ORIGINAL_CASE_STATUS_ID" />
+          <ScalarProperty Name="IS_LOCKED" ColumnName="IS_LOCKED" />
+          <ScalarProperty Name="ACCOUNT_SIGNATURE_ID" ColumnName="ACCOUNT_SIGNATURE_ID" />
+          <ScalarProperty Name="SALES_REP_SIGNATURE_ID" ColumnName="SALES_REP_SIGNATURE_ID" />
+          <ScalarProperty Name="IS_REVISION_SURGERY" ColumnName="IS_REVISION_SURGERY" />
+          <ScalarProperty Name="MANUFACTURER_REVISION_ID" ColumnName="MANUFACTURER_REVISION_ID" />
+          <ScalarProperty Name="MANUFACTURER_CASE_NAMED_VALUE" ColumnName="MANUFACTURER_CASE_NAMED_VALUE" />
+          <ScalarProperty Name="CURR_CODE" ColumnName="CURR_CODE" />
+          <ScalarProperty Name="IS_PROCESSED" ColumnName="IS_PROCESSED" />
+          <ScalarProperty Name="CASE_CANCEL_TYPE_ID" ColumnName="CASE_CANCEL_TYPE_ID" />
+          <ScalarProperty Name="PRIMARY_INVOICE_ID" ColumnName="PRIMARY_INVOICE_ID" />
+          <ScalarProperty Name="CASE_APPROVAL_ID" ColumnName="CASE_APPROVAL_ID" />
+          <ScalarProperty Name="INSURANCE_COMPANY_ID" ColumnName="INSURANCE_COMPANY_ID" />
+          <ScalarProperty Name="COD" ColumnName="COD" />
+          <ScalarProperty Name="COVERAGE_REP_ID" ColumnName="COVERAGE_REP_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_SALES_REP">
+      <EntityTypeMapping TypeName="WebOpsQCModel.TBL_SALES_REP">
+        <MappingFragment StoreEntitySet="TBL_SALES_REP">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="REP_NUMBER" ColumnName="REP_NUMBER" />
+          <ScalarProperty Name="USER_ID" ColumnName="USER_ID" />
+          <ScalarProperty Name="WAREHOUSE_ID" ColumnName="WAREHOUSE_ID" />
+          <ScalarProperty Name="MONTH_QUOTA" ColumnName="MONTH_QUOTA" />
+          <ScalarProperty Name="OLD_ID" ColumnName="OLD_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_USER">
+      <EntityTypeMapping TypeName="WebOpsQCModel.TBL_USER">
+        <MappingFragment StoreEntitySet="TBL_USER">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FIRST_NAME" ColumnName="FIRST_NAME" />
+          <ScalarProperty Name="LAST_NAME" ColumnName="LAST_NAME" />
+          <ScalarProperty Name="USERNAME" ColumnName="USERNAME" />
+          <ScalarProperty Name="PASSWORD" ColumnName="PASSWORD" />
+          <ScalarProperty Name="IS_ACTIVE" ColumnName="IS_ACTIVE" />
+          <ScalarProperty Name="CHANGED_BY" ColumnName="CHANGED_BY" />
+          <ScalarProperty Name="CHANGED_DATE" ColumnName="CHANGED_DATE" />
+          <ScalarProperty Name="CASE_ID" ColumnName="CASE_ID" />
+          <ScalarProperty Name="SALES_REP_PREFERENCE" ColumnName="SALES_REP_PREFERENCE" />
+          <ScalarProperty Name="PROCEDURE_PREFERENCE" ColumnName="PROCEDURE_PREFERENCE" />
+          <ScalarProperty Name="HOSPITAL_PREFERENCE" ColumnName="HOSPITAL_PREFERENCE" />
+          <ScalarProperty Name="STATUS_PREFERENCE" ColumnName="STATUS_PREFERENCE" />
+          <ScalarProperty Name="SCHEDULE_TYPE_PREFERENCE" ColumnName="SCHEDULE_TYPE_PREFERENCE" />
+          <ScalarProperty Name="BILLED_PREFERENCE" ColumnName="BILLED_PREFERENCE" />
+          <ScalarProperty Name="USAGE_RECEIVED_PREFERENCE" ColumnName="USAGE_RECEIVED_PREFERENCE" />
+          <ScalarProperty Name="BRANCH_ID" ColumnName="BRANCH_ID" />
+          <ScalarProperty Name="SHOW_DASHBOARD" ColumnName="SHOW_DASHBOARD" />
+          <ScalarProperty Name="OLD_ID" ColumnName="OLD_ID" />
+          <ScalarProperty Name="QA_RECIPIENT" ColumnName="QA_RECIPIENT" />
+          <ScalarProperty Name="ORDER_VIEWER" ColumnName="ORDER_VIEWER" />
+          <ScalarProperty Name="ORDER_EDITOR" ColumnName="ORDER_EDITOR" />
+          <ScalarProperty Name="ORDER_CREATOR" ColumnName="ORDER_CREATOR" />
+          <ScalarProperty Name="ORDER_DELETER" ColumnName="ORDER_DELETER" />
+          <ScalarProperty Name="ORDER_APPROVER" ColumnName="ORDER_APPROVER" />
+          <ScalarProperty Name="PAR_ADMIN" ColumnName="PAR_ADMIN" />
+          <ScalarProperty Name="ENTERPRISE" ColumnName="ENTERPRISE" />
+          <ScalarProperty Name="IS_BILLABLE" ColumnName="IS_BILLABLE" />
+          <ScalarProperty Name="PSWD_LAST_SET" ColumnName="PSWD_LAST_SET" />
+          <ScalarProperty Name="PSWD_RESET_REQUIRED" ColumnName="PSWD_RESET_REQUIRED" />
+          <ScalarProperty Name="FAILED_LOGIN_ATTEMPTS" ColumnName="FAILED_LOGIN_ATTEMPTS" />
+          <ScalarProperty Name="CAN_ADMIN_CHECKIN" ColumnName="CAN_ADMIN_CHECKIN" />
+          <ScalarProperty Name="ALERT_CASE_POSTED" ColumnName="ALERT_CASE_POSTED" />
+          <ScalarProperty Name="ALERT_CASE_RESCHEDULED" ColumnName="ALERT_CASE_RESCHEDULED" />
+          <ScalarProperty Name="ALERT_CASE_CANCELLED" ColumnName="ALERT_CASE_CANCELLED" />
+          <ScalarProperty Name="ALERT_CASE_SHIPPED" ColumnName="ALERT_CASE_SHIPPED" />
+          <ScalarProperty Name="ALERT_KIT_SHIPPED_INCOMPLETE" ColumnName="ALERT_KIT_SHIPPED_INCOMPLETE" />
+          <ScalarProperty Name="ORDER_INTEGRATION_USER" ColumnName="ORDER_INTEGRATION_USER" />
+          <ScalarProperty Name="CAN_TRANSFER_INVENTORY" ColumnName="CAN_TRANSFER_INVENTORY" />
+          <ScalarProperty Name="CAN_RETURN_INVENTORY" ColumnName="CAN_RETURN_INVENTORY" />
+          <ScalarProperty Name="REPORT_PERMISSION" ColumnName="REPORT_PERMISSION" />
+          <ScalarProperty Name="CASE_IDENTIFIER_ENABLED" ColumnName="CASE_IDENTIFIER_ENABLED" />
+          <ScalarProperty Name="LANGUAGE_CODE" ColumnName="LANGUAGE_CODE" />
+          <ScalarProperty Name="COUNTRY_CODE" ColumnName="COUNTRY_CODE" />
+          <ScalarProperty Name="RFID_ENABLED" ColumnName="RFID_ENABLED" />
+          <ScalarProperty Name="CAN_VIEW_TRANSACTIONS" ColumnName="CAN_VIEW_TRANSACTIONS" />
+          <ScalarProperty Name="HOSPITAL_SYSTEMS_SUPPORT" ColumnName="HOSPITAL_SYSTEMS_SUPPORT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

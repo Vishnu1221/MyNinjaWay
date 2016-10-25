@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Upsscs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" applicationVersion="1.0" schemaVersion="5.1">
+  <Header>
+    <messageIdentifier>test-1000830107</messageIdentifier>
+    <processIdentifier>897537096</processIdentifier>
+    <messageProducer>SIP</messageProducer>
+    <messageConsumer>SplusAdapter</messageConsumer>
+    <messageFunction>OrderCreationRequest</messageFunction>
+    <messageDateTime>2016-10-24T17:31:35.3104136+05:30</messageDateTime>
+  </Header>
+  <OrderCreationRequest>
+    <OrderProcessingInstructions>
+      <inventoryOrder>true</inventoryOrder>
+      <customerOrderNumber>Inv Chris</customerOrderNumber>
+      <timeSentInGMT>true</timeSentInGMT>
+    </OrderProcessingInstructions>
+    <Authorizer>
+      <firstName>Joe</firstName>
+      <lastName>Smith 34567</lastName>
+    </Authorizer>
+  </OrderCreationRequest>
+</Upsscs>

@@ -1,0 +1,45 @@
+﻿Installing assembly 'D:\Debug\DBSpy.exe'.
+Affected parameters are:
+   logtoconsole = 
+   i = 
+   logfile = D:\Debug\DBSpy.InstallLog
+   assemblypath = D:\Debug\DBSpy.exe
+Installing service DBSpy...
+Service DBSpy has been successfully installed.
+Creating EventLog source DBSpy in log Application...
+Committing assembly 'D:\Debug\DBSpy.exe'.
+Affected parameters are:
+   logtoconsole = 
+   i = 
+   logfile = D:\Debug\DBSpy.InstallLog
+   assemblypath = D:\Debug\DBSpy.exe
+Installing assembly 'D:\Debug\DBSpy.exe'.
+Affected parameters are:
+   logtoconsole = 
+   i = 
+   logfile = D:\Debug\DBSpy.InstallLog
+   assemblypath = D:\Debug\DBSpy.exe
+Installing service DBSpy...
+Service DBSpy has been successfully installed.
+Creating EventLog source DBSpy in log Application...
+Committing assembly 'D:\Debug\DBSpy.exe'.
+Affected parameters are:
+   logtoconsole = 
+   i = 
+   logfile = D:\Debug\DBSpy.InstallLog
+   assemblypath = D:\Debug\DBSpy.exe
+Installing assembly 'D:\Debug\DBSpy.exe'.
+Affected parameters are:
+   logtoconsole = 
+   i = 
+   logfile = D:\Debug\DBSpy.InstallLog
+   assemblypath = D:\Debug\DBSpy.exe
+Installing service DBSpy...
+Service DBSpy has been successfully installed.
+Creating EventLog source DBSpy in log Application...
+Committing assembly 'D:\Debug\DBSpy.exe'.
+Affected parameters are:
+   logtoconsole = 
+   i = 
+   logfile = D:\Debug\DBSpy.InstallLog
+   assemblypath = D:\Debug\DBSpy.exe

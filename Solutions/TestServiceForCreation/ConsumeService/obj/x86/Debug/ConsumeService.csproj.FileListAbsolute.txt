@@ -1,0 +1,18 @@
+D:\POC Applications\TestServiceForCreation\ConsumeService\bin\Debug\ConsumeService.exe.config
+D:\POC Applications\TestServiceForCreation\ConsumeService\bin\Debug\ConsumeService.exe
+D:\POC Applications\TestServiceForCreation\ConsumeService\bin\Debug\ConsumeService.pdb
+D:\POC Applications\TestServiceForCreation\ConsumeService\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\POC Applications\TestServiceForCreation\ConsumeService\obj\x86\Debug\ConsumeService.exe
+D:\POC Applications\TestServiceForCreation\ConsumeService\obj\x86\Debug\ConsumeService.pdb
+D:\Projects\TestServiceForCreation\ConsumeService\bin\Debug\ConsumeService.exe.config
+D:\Projects\TestServiceForCreation\ConsumeService\bin\Debug\ConsumeService.exe
+D:\Projects\TestServiceForCreation\ConsumeService\bin\Debug\ConsumeService.pdb
+D:\Projects\TestServiceForCreation\ConsumeService\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Projects\TestServiceForCreation\ConsumeService\obj\x86\Debug\ConsumeService.exe
+D:\Projects\TestServiceForCreation\ConsumeService\obj\x86\Debug\ConsumeService.pdb
+D:\Solutions\TestServiceForCreation\ConsumeService\bin\Debug\ConsumeService.exe.config
+D:\Solutions\TestServiceForCreation\ConsumeService\bin\Debug\ConsumeService.exe
+D:\Solutions\TestServiceForCreation\ConsumeService\bin\Debug\ConsumeService.pdb
+D:\Solutions\TestServiceForCreation\ConsumeService\obj\x86\Debug\ConsumeService.csprojResolveAssemblyReference.cache
+D:\Solutions\TestServiceForCreation\ConsumeService\obj\x86\Debug\ConsumeService.exe
+D:\Solutions\TestServiceForCreation\ConsumeService\obj\x86\Debug\ConsumeService.pdb

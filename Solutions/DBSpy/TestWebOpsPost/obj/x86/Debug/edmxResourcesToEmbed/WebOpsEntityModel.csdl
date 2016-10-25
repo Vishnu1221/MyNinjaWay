@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WebOpsQCModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="WebOpsQCEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="TBL_CASE" EntityType="WebOpsQCModel.TBL_CASE" />
+    <EntitySet Name="TBL_SALES_REP" EntityType="WebOpsQCModel.TBL_SALES_REP" />
+    <EntitySet Name="TBL_USER" EntityType="WebOpsQCModel.TBL_USER" />
+    <AssociationSet Name="FK_TBL_CASE_TBL_CASE" Association="WebOpsQCModel.FK_TBL_CASE_TBL_CASE">
+      <End Role="TBL_CASE" EntitySet="TBL_CASE" />
+      <End Role="TBL_CASE1" EntitySet="TBL_CASE" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TBL_CASE_TBL_SALES_REP" Association="WebOpsQCModel.FK_TBL_CASE_TBL_SALES_REP">
+      <End Role="TBL_SALES_REP" EntitySet="TBL_SALES_REP" />
+      <End Role="TBL_CASE" EntitySet="TBL_CASE" />
+    </AssociationSet>
+    <AssociationSet Name="FK40487B3138755428" Association="WebOpsQCModel.FK40487B3138755428">
+      <End Role="TBL_SALES_REP" EntitySet="TBL_SALES_REP" />
+      <End Role="TBL_CASE" EntitySet="TBL_CASE" />
+    </AssociationSet>
+    <AssociationSet Name="FK40487B31A83A8ED0" Association="WebOpsQCModel.FK40487B31A83A8ED0">
+      <End Role="TBL_SALES_REP" EntitySet="TBL_SALES_REP" />
+      <End Role="TBL_CASE" EntitySet="TBL_CASE" />
+    </AssociationSet>
+    <AssociationSet Name="FK4050EBCC4BDEEC8A" Association="WebOpsQCModel.FK4050EBCC4BDEEC8A">
+      <End Role="TBL_CASE" EntitySet="TBL_CASE" />
+      <End Role="TBL_USER" EntitySet="TBL_USER" />
+    </AssociationSet>
+    <AssociationSet Name="FKBB23374976188701" Association="WebOpsQCModel.FKBB23374976188701">
+      <End Role="TBL_USER" EntitySet="TBL_USER" />
+      <End Role="TBL_SALES_REP" EntitySet="TBL_SALES_REP" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="TBL_CASE">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SURGERY_DATE" Type="DateTime" Nullable="false" />
+    <Property Name="SHIPPING_ADDRESS_ID" Type="Int64" />
+    <Property Name="CASE_IDENTIFIER" Type="String" Nullable="false" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="IS_TRAUMA" Type="Byte" />
+    <Property Name="SPECIAL_INSTRUCTION" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="PO_NUMBER" Type="String" MaxLength="15" Unicode="false" FixedLength="false" />
+    <Property Name="INVOICE_NUMBER" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="CHECKED_OUT_BY" Type="String" Nullable="false" MaxLength="101" Unicode="false" FixedLength="false" />
+    <Property Name="CREATED_BY" Type="String" Nullable="false" MaxLength="101" Unicode="false" FixedLength="false" />
+    <Property Name="CREATED_DATE" Type="DateTime" Nullable="false" />
+    <Property Name="CHANGED_BY" Type="String" Nullable="false" MaxLength="101" Unicode="false" FixedLength="false" />
+    <Property Name="CHANGED_DATE" Type="DateTime" Nullable="false" />
+    <Property Name="SALES_REP_ID" Type="Int64" Nullable="false" />
+    <Property Name="PHYSICIAN_ID" Type="Int64" />
+    <Property Name="HOSPITAL_ID" Type="Int64" />
+    <Property Name="PROCEDURE_ID" Type="Int64" />
+    <Property Name="CASE_STATUS_ID" Type="Int64" />
+    <Property Name="CASE_TYPE_ID" Type="Int64" />
+    <Property Name="IS_CONFIRMED" Type="Byte" />
+    <Property Name="IS_ASSEMBLED" Type="Byte" />
+    <Property Name="HOSPITAL_PO" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="PO_CALLED_IN_BY" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="FREIGHT" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="BILLING_NUMBER" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="ORDER_NUMBER" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="SURGERY_ENTRY_FORM_COMMENTS" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="SHIP_VIA" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="CROSSLINK_PO" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="USAGE_RECEIVED" Type="Byte" />
+    <Property Name="USAGE_REORDERED" Type="Byte" />
+    <Property Name="USAGE_CHANGED_BY" Type="String" MaxLength="101" Unicode="false" FixedLength="false" />
+    <Property Name="USAGE_CHANGED_DATE" Type="DateTime" />
+    <Property Name="USAGE_TIMESTAMP" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="PATIENT_GENDER" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="PATIENT_DOB" Type="DateTime" />
+    <Property Name="BRANCH_ID" Type="Int64" Nullable="false" />
+    <Property Name="OLD_ID" Type="Int64" />
+    <Property Name="ORACLE_SYNCHRONIZED" Type="Byte" Nullable="false" />
+    <Property Name="OLD_LOADER_ID" Type="Int64" />
+    <Property Name="BILLED" Type="Byte" Nullable="false" />
+    <Property Name="PICK_STATUS_ID" Type="Int64" />
+    <Property Name="PICK_PACKING_SLIP_FORM_NOTES" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="AGE_OF_PATIENT" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="SEARCH_CASE_IDENTIFIER" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="SALES_ORDER_NOTE" Type="String" MaxLength="150" Unicode="true" FixedLength="false" />
+    <Property Name="ORIGINAL_CASE_STATUS_ID" Type="Int64" />
+    <Property Name="IS_LOCKED" Type="Byte" Nullable="false" />
+    <Property Name="ACCOUNT_SIGNATURE_ID" Type="Int64" />
+    <Property Name="SALES_REP_SIGNATURE_ID" Type="Int64" />
+    <Property Name="IS_REVISION_SURGERY" Type="Byte" />
+    <Property Name="MANUFACTURER_REVISION_ID" Type="Int64" />
+    <Property Name="MANUFACTURER_CASE_NAMED_VALUE" Type="String" MaxLength="32" Unicode="false" FixedLength="false" />
+    <Property Name="CURR_CODE" Type="String" MaxLength="3" Unicode="false" FixedLength="true" />
+    <Property Name="IS_PROCESSED" Type="Boolean" Nullable="false" />
+    <Property Name="CASE_CANCEL_TYPE_ID" Type="Int64" />
+    <Property Name="PRIMARY_INVOICE_ID" Type="Int64" Nullable="false" />
+    <Property Name="CASE_APPROVAL_ID" Type="Int64" Nullable="false" />
+    <Property Name="INSURANCE_COMPANY_ID" Type="Int64" />
+    <Property Name="COD" Type="String" MaxLength="150" Unicode="true" FixedLength="false" />
+    <Property Name="COVERAGE_REP_ID" Type="Int64" />
+    <NavigationProperty Name="TBL_CASE1" Relationship="WebOpsQCModel.FK_TBL_CASE_TBL_CASE" FromRole="TBL_CASE" ToRole="TBL_CASE1" />
+    <NavigationProperty Name="TBL_CASE2" Relationship="WebOpsQCModel.FK_TBL_CASE_TBL_CASE" FromRole="TBL_CASE1" ToRole="TBL_CASE" />
+    <NavigationProperty Name="TBL_SALES_REP" Relationship="WebOpsQCModel.FK_TBL_CASE_TBL_SALES_REP" FromRole="TBL_CASE" ToRole="TBL_SALES_REP" />
+    <NavigationProperty Name="TBL_SALES_REP1" Relationship="WebOpsQCModel.FK40487B3138755428" FromRole="TBL_CASE" ToRole="TBL_SALES_REP" />
+    <NavigationProperty Name="TBL_SALES_REP2" Relationship="WebOpsQCModel.FK40487B31A83A8ED0" FromRole="TBL_CASE" ToRole="TBL_SALES_REP" />
+    <NavigationProperty Name="TBL_USER" Relationship="WebOpsQCModel.FK4050EBCC4BDEEC8A" FromRole="TBL_CASE" ToRole="TBL_USER" />
+  </EntityType>
+  <EntityType Name="TBL_SALES_REP">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="REP_NUMBER" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="USER_ID" Type="Int64" />
+    <Property Name="WAREHOUSE_ID" Type="Int64" />
+    <Property Name="MONTH_QUOTA" Type="Int32" />
+    <Property Name="OLD_ID" Type="Int64" />
+    <NavigationProperty Name="TBL_CASE" Relationship="WebOpsQCModel.FK_TBL_CASE_TBL_SALES_REP" FromRole="TBL_SALES_REP" ToRole="TBL_CASE" />
+    <NavigationProperty Name="TBL_CASE1" Relationship="WebOpsQCModel.FK40487B3138755428" FromRole="TBL_SALES_REP" ToRole="TBL_CASE" />
+    <NavigationProperty Name="TBL_CASE2" Relationship="WebOpsQCModel.FK40487B31A83A8ED0" FromRole="TBL_SALES_REP" ToRole="TBL_CASE" />
+    <NavigationProperty Name="TBL_USER" Relationship="WebOpsQCModel.FKBB23374976188701" FromRole="TBL_SALES_REP" ToRole="TBL_USER" />
+  </EntityType>
+  <EntityType Name="TBL_USER">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FIRST_NAME" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="LAST_NAME" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="USERNAME" Type="String" Nullable="false" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="PASSWORD" Type="String" Nullable="false" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="IS_ACTIVE" Type="Byte" Nullable="false" />
+    <Property Name="CHANGED_BY" Type="Int64" Nullable="false" />
+    <Property Name="CHANGED_DATE" Type="DateTime" Nullable="false" />
+    <Property Name="CASE_ID" Type="Int64" />
+    <Property Name="SALES_REP_PREFERENCE" Type="Int32" />
+    <Property Name="PROCEDURE_PREFERENCE" Type="Int32" />
+    <Property Name="HOSPITAL_PREFERENCE" Type="Int32" />
+    <Property Name="STATUS_PREFERENCE" Type="Int32" />
+    <Property Name="SCHEDULE_TYPE_PREFERENCE" Type="Int32" />
+    <Property Name="BILLED_PREFERENCE" Type="Byte" />
+    <Property Name="USAGE_RECEIVED_PREFERENCE" Type="Byte" />
+    <Property Name="BRANCH_ID" Type="Int64" />
+    <Property Name="SHOW_DASHBOARD" Type="Byte" Nullable="false" />
+    <Property Name="OLD_ID" Type="Int64" />
+    <Property Name="QA_RECIPIENT" Type="Byte" Nullable="false" />
+    <Property Name="ORDER_VIEWER" Type="Byte" Nullable="false" />
+    <Property Name="ORDER_EDITOR" Type="Byte" Nullable="false" />
+    <Property Name="ORDER_CREATOR" Type="Byte" Nullable="false" />
+    <Property Name="ORDER_DELETER" Type="Byte" Nullable="false" />
+    <Property Name="ORDER_APPROVER" Type="Byte" Nullable="false" />
+    <Property Name="PAR_ADMIN" Type="Byte" Nullable="false" />
+    <Property Name="ENTERPRISE" Type="Byte" Nullable="false" />
+    <Property Name="IS_BILLABLE" Type="Byte" Nullable="false" />
+    <Property Name="PSWD_LAST_SET" Type="DateTime" />
+    <Property Name="PSWD_RESET_REQUIRED" Type="Byte" Nullable="false" />
+    <Property Name="FAILED_LOGIN_ATTEMPTS" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="CAN_ADMIN_CHECKIN" Type="Byte" Nullable="false" />
+    <Property Name="ALERT_CASE_POSTED" Type="Byte" Nullable="false" />
+    <Property Name="ALERT_CASE_RESCHEDULED" Type="Byte" Nullable="false" />
+    <Property Name="ALERT_CASE_CANCELLED" Type="Byte" Nullable="false" />
+    <Property Name="ALERT_CASE_SHIPPED" Type="Byte" Nullable="false" />
+    <Property Name="ALERT_KIT_SHIPPED_INCOMPLETE" Type="Byte" Nullable="false" />
+    <Property Name="ORDER_INTEGRATION_USER" Type="Byte" Nullable="false" />
+    <Property Name="CAN_TRANSFER_INVENTORY" Type="Byte" Nullable="false" />
+    <Property Name="CAN_RETURN_INVENTORY" Type="Byte" Nullable="false" />
+    <Property Name="REPORT_PERMISSION" Type="Byte" Nullable="false" />
+    <Property Name="CASE_IDENTIFIER_ENABLED" Type="Byte" Nullable="false" />
+    <Property Name="LANGUAGE_CODE" Type="String" Nullable="false" MaxLength="2" Unicode="false" FixedLength="true" />
+    <Property Name="COUNTRY_CODE" Type="String" Nullable="false" MaxLength="2" Unicode="false" FixedLength="true" />
+    <Property Name="RFID_ENABLED" Type="Byte" Nullable="false" />
+    <Property Name="CAN_VIEW_TRANSACTIONS" Type="Byte" Nullable="false" />
+    <Property Name="HOSPITAL_SYSTEMS_SUPPORT" Type="Byte" Nullable="false" />
+    <NavigationProperty Name="TBL_CASE" Relationship="WebOpsQCModel.FK4050EBCC4BDEEC8A" FromRole="TBL_USER" ToRole="TBL_CASE" />
+    <NavigationProperty Name="TBL_SALES_REP" Relationship="WebOpsQCModel.FKBB23374976188701" FromRole="TBL_USER" ToRole="TBL_SALES_REP" />
+  </EntityType>
+  <Association Name="FK_TBL_CASE_TBL_CASE">
+    <End Role="TBL_CASE" Type="WebOpsQCModel.TBL_CASE" Multiplicity="1" />
+    <End Role="TBL_CASE1" Type="WebOpsQCModel.TBL_CASE" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="TBL_CASE">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="TBL_CASE1">
+        <PropertyRef Name="ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TBL_CASE_TBL_SALES_REP">
+    <End Role="TBL_SALES_REP" Type="WebOpsQCModel.TBL_SALES_REP" Multiplicity="1" />
+    <End Role="TBL_CASE" Type="WebOpsQCModel.TBL_CASE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TBL_SALES_REP">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="TBL_CASE">
+        <PropertyRef Name="SALES_REP_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK40487B3138755428">
+    <End Role="TBL_SALES_REP" Type="WebOpsQCModel.TBL_SALES_REP" Multiplicity="1" />
+    <End Role="TBL_CASE" Type="WebOpsQCModel.TBL_CASE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TBL_SALES_REP">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="TBL_CASE">
+        <PropertyRef Name="SALES_REP_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK40487B31A83A8ED0">
+    <End Role="TBL_SALES_REP" Type="WebOpsQCModel.TBL_SALES_REP" Multiplicity="1" />
+    <End Role="TBL_CASE" Type="WebOpsQCModel.TBL_CASE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TBL_SALES_REP">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="TBL_CASE">
+        <PropertyRef Name="SALES_REP_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK4050EBCC4BDEEC8A">
+    <End Role="TBL_CASE" Type="WebOpsQCModel.TBL_CASE" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="TBL_USER" Type="WebOpsQCModel.TBL_USER" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TBL_CASE">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="TBL_USER">
+        <PropertyRef Name="CASE_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKBB23374976188701">
+    <End Role="TBL_USER" Type="WebOpsQCModel.TBL_USER" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="TBL_SALES_REP" Type="WebOpsQCModel.TBL_SALES_REP" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TBL_USER">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="TBL_SALES_REP">
+        <PropertyRef Name="USER_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
